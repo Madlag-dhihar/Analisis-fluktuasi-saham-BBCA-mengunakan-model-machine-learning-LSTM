@@ -1,34 +1,24 @@
-# Analisis fluktuasi saham BBCA mengunakan model machine learning LSTM
+# 📊 BBCA Stock Price Analysis & Predictive Modeling
 
-Harga saham BBCA, seperti halnya saham lainnya, mengalami fluktuasi setiap
-hari yang disebabkan oleh berbagai faktor, baik itu dari faktor internal perusahaan
-maupun kondisi makro ekonomi seperti inflasi, suku bunga, nilai tukar, serta sentimen
-pasar. Oleh karena itu, analisis terhadap fluktuasi harga saham menjadi sangat penting
-untuk membantu investor untuk mengambil keputusan investasi yang tepat. Dalam
-konteks ini, pendekatan analitis dan prediktif dibutuhkan untuk memahami pola
-pergerakan harga saham dan memperkirakan harga di masa depan. Dengan memahami
-pola fluktuasi ini, investor dapat meminimalkan risiko dan memaksimalkan potensi
-keuntungan dari keputusan investasi yang mereka ambil.
-Harga saham bersifat dinamis dan mengalami fluktuasi terus-menerus seiring
-dengan perubahan kondisi pasar dan ekonomi. Fluktuasi ini dapat disebabkan oleh faktor
-internal perusahaan seperti laporan keuangan, aksi korporasi, dan kinerja manajemen,
-serta faktor eksternal seperti inflasi, suku bunga, nilai tukar, dan sentimen investor.
-Perubahan-perubahan tersebut menciptakan volatilitas yang dapat memberikan peluang
-keuntungan, namun juga meningkatkan risiko investasi. Oleh karena itu, pemahaman
-terhadap pola fluktuasi harga saham menjadi penting agar investor dapat meminimalkan
-risiko dan mengambil keputusan berdasarkan data yang lebih akurat.
-Prediksi harga saham merupakan tantangan besar karena sifat pasar yang dinamis
-dan tidak sepenuhnya dapat diprediksi secara deterministik. Meski demikian, dengan
-pendekatan kuantitatif seperti analisis time series, regresi, machine learning, dan teknik
-statistik lainnya. Prediksi harga saham dapat dilakukan secara lebih sistematis dan
-berdasarkan data historis. Penelitian ini berfokus pada analisis fluktuasi harga saham
-BBCA sebagai dasar dalam melakukan prediksi harga, dengan harapan dapat
-4
-memberikan insight bagi investor dalam menentukan waktu terbaik untuk membeli atau
-menjual saham.
+> *Leveraging time-series analysis and quantitative machine learning to model BBCA stock price dynamics and optimize investment strategy.*
 
-Disusun Oleh:
+### 📖 Project Overview
+
+Bank Central Asia (BBCA) stock prices fluctuate dynamically under the influence of company fundamentals, macroeconomic shifts (inflation, interest rates, FX rates), and broader market sentiment. Navigating this volatility requires quantitative and predictive approaches rather than reliance on market intuition.
+
+This project analyzes historical BBCA price movements to uncover underlying behavioral patterns and forecast future price points using advanced quantitative and machine learning models.
+
+### 💡 Key Value Proposition
+- **Risk Mitigation:** Quantifies market volatility to support sound risk management.
+- **Data-Driven Timing:** Delivers empirical insights to identify optimal entry and exit points for investors.
+- **Systematic Forecasting:** Translates unstructured market signals into actionable continuous price predictions.
+
+### 🔀 Input / Output (I/O) Specification
+- **Input ($X$):** Historical price metrics (OHLCV), macro indicators, and engineered time-series features.
+- **Output ($Y$):** Predicted continuous stock price target evaluated using standard regression error metrics.
+
+Authorized by:
 - Muhammad Shafi Dhihar Athaya
 - Matthew Owen Gunawan
 - Jaysen Lewin Surjanto
-- Leornadus Hassan 
+- Leonardus Hasan 
